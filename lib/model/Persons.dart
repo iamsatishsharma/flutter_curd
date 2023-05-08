@@ -9,7 +9,7 @@ class Person {
 
    Person({ this.id,  this.name, this.age, this.address});
 
-
+  //Alternate way to use model by const.
   //const Person({ this.id,  this.name, this.age, this.address,  this.description});
 
   factory Person.fromMap(Map<String, dynamic> json) =>

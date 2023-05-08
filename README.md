@@ -21,6 +21,8 @@ This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
+- [Install Flutter and Get Started](https://docs.flutter.dev/get-started/install)
+
 - [Persist data with SQLite](https://docs.flutter.dev/cookbook/persistence/sqlite)
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)

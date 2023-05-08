@@ -33,6 +33,12 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+### Input Text Validation
+![Screenshot](https://github.com/iamsatishsharma/flutter_curd/blob/master/Screenshots/1st_Screen.png)
+### Add and delete items
+![Screenshot](https://github.com/iamsatishsharma/flutter_curd/blob/master/Screenshots/4th_Screen.png)
+### Update few rows
+![Screenshot](https://github.com/iamsatishsharma/flutter_curd/blob/master/Screenshots/5th_Screen.png)
 
 # License
 flutter_curd is available under the MIT license. See the LICENSE file for more info.

@@ -243,7 +243,7 @@ class MyHomePageState extends State<MyHomePage> {
 
     Person person = Person(id:  (_journals.length + 1).toString(), name:  _nameController.text, age: _ageController.text, address: _addressController.text);
 
-    await SQLHelper.insertPerson(person);
+    await SQLHelper.insert(person);
 
     ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
       content: Text('Successfully added a record!'),
@@ -254,7 +254,7 @@ class MyHomePageState extends State<MyHomePage> {
 
   // Update an existing journal
   Future<void> _updateItem(String id) async {
-    await SQLHelper.updatePerson(
+    await SQLHelper.update(
         id, _nameController.text, _ageController.text, _addressController.text);
 
     ScaffoldMessenger.of(context).showSnackBar(const SnackBar(

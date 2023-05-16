@@ -63,6 +63,7 @@ onCreate Function
   static Future<List<Person>> getAllPersons() async {
     Database db = await getDataBase();
     List<Map<String, dynamic>> personsMap = await db.query(_tableName);
+        print('''SQlite: ${ personsMap}''');
     return List.generate(personsMap.length, (index) {
       return Person(
           id: personsMap[index]["id"],

@@ -2,12 +2,12 @@
 ///created the Modal Class of Person and their respective functions as shown below
 class Person {
 
-   String? id;
-   String? name;
-   String? age;
-   String? address;
+   final String? id;
+   final String? name;
+   final String? age;
+   final String? address;
 
-   Person({ this.id,  this.name, this.age, this.address});
+   const Person({ this.id,  this.name, this.age, this.address});
 
   //Alternate way to use model by const.
   //const Person({ this.id,  this.name, this.age, this.address,  this.description});

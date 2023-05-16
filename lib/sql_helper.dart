@@ -42,7 +42,7 @@ onCreate Function
 //============================================================================
 //Insert/Add Method
 // First Insert Function Which will take values and add them inside the Database
-  static Future<int> insertPerson(Person person) async {
+  static Future<int> insert(Person person) async {
     int userId = 0;
     Database db = await getDataBase();
     String path = await getDatabasesPath();
@@ -95,7 +95,7 @@ onCreate Function
 //Updating a particular person needs UserId and new values in the function when calling it. Here is the function for that below.
 //Need to add an Update query and give it the table and updated values where id = userId.
 
-  static Future<void> updatePerson(String userId, String name, String age, String address) async {
+  static Future<void> update(String userId, String name, String age, String address) async {
     Database db = await getDataBase();
     db.rawUpdate("UPDATE $_tableName SET name = '$name', age = '$age', address = '$address' WHERE id = '$userId'");
   }
